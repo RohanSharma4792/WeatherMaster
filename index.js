@@ -92,4 +92,4 @@ $(document).ready(function() {
       $(".temp").css("color", font_color);
     }
   });
-  
+  //api code for open weather here
