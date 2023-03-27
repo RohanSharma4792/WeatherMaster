@@ -179,7 +179,30 @@
       </div>
       <span>Enable location to see yours!</span>
 
+<script>
+	const curDate = document.getElementById('date')
+	let weather = document.getElementById("weathercon")
+	const tempstatus = "clouds"
+	const getDay = () =>{
+		var weekday = new Array(7)
+		weekday[0] = "Sunday"
+		weekday[1] = "Monday"
+		weekday[2] = "Tuesday"
+		weekday[3] = "Wednesday"
+		weekday[4] = "Thursday"
+		weekday[5] = "Friday"
+		weekday[6] = "Saturday"
+		let curTime = new Date()
+		console.log(weekday[curTime.getDay()])
+	}
+	const getTime = () =>{
+		var curTime = new Date()
+		var month = curTime.getMonth()+1
+		var day = curTime.getDate()
+		var year = curTime.getFullYear()
+	}
 
+</script>
 <script src="index.js"></script>    
 </body>
 </html>
