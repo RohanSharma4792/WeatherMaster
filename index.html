@@ -196,8 +196,9 @@
 			weekday[4] = "Thu"
 			weekday[5] = "Fri"
 			weekday[6] = "Sat"
+			var day = weekday.getDay()
 			// let curTime = new Date()
-			return weekday
+			return day
 			// console.log(weekday[curTime.getDay()])
 		}
 		const getTime = () => {
@@ -227,7 +228,7 @@
 		}
 		// console.log(month + '/' + day)
 		// curDate.innerHTML = `getDay() + "|"+ getTime`
-		curDate.innerHTML =  + "|"+ getTime()
+		curDate.innerHTML = getDay() + "|"+ getTime()
 
 	</script>
 	<script src="index.js"></script>
